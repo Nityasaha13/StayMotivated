@@ -39,3 +39,15 @@ button#more {
 #more:hover {
     background-color: #115fde;
 }
+
+
+.hidden {
+    display: none;
+}
+
+#loader {
+    justify-content: center;
+    align-items: center;
+    width: 100px !important;
+}
+
