@@ -1,0 +1,41 @@
+body{
+    min-width: 300px;
+    font-size: medium;
+    font-family: cursive;
+    border: 2px solid silver;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+strong{
+    color: rgb(96, 95, 95);
+}
+
+.main{
+    padding: 20px;
+}
+
+.content{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#author{
+    text-align: right;
+}
+
+button#more {
+    display: block;
+    margin: 0 auto !important;
+    text-align: center;
+    padding: 6px;
+    margin-top: 13px !important;
+    color: white;
+    background-color: #357df1;
+    border: none;
+    cursor: pointer;
+}
+
+#more:hover {
+    background-color: #115fde;
+}
