@@ -16,12 +16,14 @@ strong{
 }
 
 .content{
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
-#author{
+div#author{
     text-align: right;
+    font-size: smaller !important;
+    margin-top: 5px;
 }
 
 button#more {
@@ -29,7 +31,7 @@ button#more {
     margin: 0 auto !important;
     text-align: center;
     padding: 6px;
-    margin-top: 13px !important;
+    margin-top: 10px !important;
     color: white;
     background-color: #357df1;
     border: none;
@@ -49,5 +51,9 @@ button#more {
     justify-content: center;
     align-items: center;
     width: 100px !important;
+}
+
+#loader img {
+    margin-left: 80%;
 }
 

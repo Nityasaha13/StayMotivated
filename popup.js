@@ -1,4 +1,5 @@
 const quoteElement = document.getElementById("quote");
+const contentElement = document.getElementById("content");
 const authorElement = document.getElementById("author");
 const loaderElement = document.getElementById("loader");
 const moreButton = document.getElementById("more");
@@ -12,6 +13,7 @@ moreButton.addEventListener("click", fetchQuote);
 function fetchQuote() {
     // Show loader while fetching
     loaderElement.classList.remove("hidden");
+    contentElement.classList.add("hidden");
 
     fetch("https://api.quotable.io/random")
         .then(response => response.json())
@@ -23,5 +25,6 @@ function fetchQuote() {
         .finally(() => {
             // Hide loader after fetching
             loaderElement.classList.add("hidden");
+            contentElement.classList.remove("hidden");
         });
 }
